@@ -1,0 +1,10 @@
+diff --git b/config/bash/lxc.in a/config/bash/lxc.in
+index 344d5cb..cbd1b79 100644
+--- b/config/bash/lxc.in
++++ a/config/bash/lxc.in
+@@ -1,4 +1,4 @@
+-_have lxc-start && {
++have lxc-start && {
+     _lxc_names() {
+         COMPREPLY=( $( compgen -W "$( lxc-ls )" "$cur" ) )
+     }

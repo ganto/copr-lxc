@@ -1,0 +1,33 @@
+diff -up lxc-2.0.8/src/lxc/caps.h.orig lxc-2.0.8/src/lxc/caps.h
+--- lxc-2.0.8/src/lxc/caps.h.orig	2017-05-11 17:23:06.000000000 +0000
++++ lxc-2.0.8/src/lxc/caps.h	2017-06-10 07:04:48.702079368 +0000
+@@ -28,6 +28,7 @@
+ #define __LXC_CAPS_H
+ 
+ #if HAVE_LIBCAP
++#include <linux/types.h>
+ #include <sys/capability.h>
+ 
+ extern int lxc_caps_down(void);
+diff -up lxc-2.0.8/src/lxc/conf.c.orig lxc-2.0.8/src/lxc/conf.c
+--- lxc-2.0.8/src/lxc/conf.c.orig	2017-05-11 17:23:06.000000000 +0000
++++ lxc-2.0.8/src/lxc/conf.c	2017-06-10 07:08:18.448806856 +0000
+@@ -90,6 +90,7 @@
+ #include "lsm/lsm.h"
+ 
+ #if HAVE_LIBCAP
++#include <linux/types.h>
+ #include <sys/capability.h>
+ #endif
+ 
+diff -up lxc-2.0.8/src/lxc/start.c.orig lxc-2.0.8/src/lxc/start.c
+--- lxc-2.0.8/src/lxc/start.c.orig	2017-05-11 17:23:06.000000000 +0000
++++ lxc-2.0.8/src/lxc/start.c	2017-06-10 07:05:33.166293224 +0000
+@@ -47,6 +47,7 @@
+ #include <sys/wait.h>
+ 
+ #if HAVE_LIBCAP
++#include <linux/types.h>
+ #include <sys/capability.h>
+ #endif
+ 
