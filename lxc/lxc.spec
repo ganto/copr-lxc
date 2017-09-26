@@ -30,8 +30,8 @@
 %global shortcommit %(c=%{commit}; echo ${c:0:7})
 
 Name:           lxc
-Version:        2.0.8
-Release:        %{?prerel:0.}2%{?prerel:.%{prerel}}%{?dist}.2
+Version:        2.1.0
+Release:        %{?prerel:0.}1%{?prerel:.%{prerel}}%{?dist}
 Summary:        Linux Resource Containers
 Group:          Applications/System
 License:        LGPLv2+ and GPLv2
@@ -43,7 +43,7 @@ Source0:        http://linuxcontainers.org/downloads/%{name}-%{version}.tar.gz
 %endif
 Patch0:         lxc-2.0.7-fix-init.patch
 Patch1:         lxc-2.0.6-fix-lxc-net.patch
-Patch2:         lxc-2.0.8-fix_capability_h.patch
+Patch2:         lxc-2.1.0-fix_capability_h.patch
 Patch3:         lxc-fix-bash-completion.patch
 BuildRequires:  docbook2X
 BuildRequires:  doxygen

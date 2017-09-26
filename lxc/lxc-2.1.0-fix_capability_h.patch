@@ -1,8 +1,8 @@
-diff -up lxc-2.0.8/src/lxc/caps.h.orig lxc-2.0.8/src/lxc/caps.h
---- lxc-2.0.8/src/lxc/caps.h.orig	2017-05-11 17:23:06.000000000 +0000
-+++ lxc-2.0.8/src/lxc/caps.h	2017-06-10 07:04:48.702079368 +0000
-@@ -28,6 +28,7 @@
- #define __LXC_CAPS_H
+diff -up lxc-2.1.0/src/lxc/caps.h.orig lxc-2.1.0/src/lxc/caps.h
+--- lxc-2.1.0/src/lxc/caps.h.orig   2017-09-26 06:55:58.036750238 +0200
++++ lxc-2.1.0/src/lxc/caps.h    2017-09-26 06:59:33.693598886 +0200
+@@ -29,6 +29,7 @@
+ 
  
  #if HAVE_LIBCAP
 +#include <linux/types.h>
