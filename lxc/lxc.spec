@@ -57,6 +57,9 @@ BuildRequires:  libtool
 BuildRequires:  pkgconfig(lua)
 %if 0%{?with_python3}
 BuildRequires:  pkgconfig(python3) >= 3.2
+%if 0%{?rhel} == 7
+BuildRequires:  python34-setuptools
+%endif
 %endif # with_python3
 %if 0%{?with_systemd}
 BuildRequires:  systemd
