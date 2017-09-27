@@ -388,6 +388,10 @@ fi
 
 
 %changelog
+* Wed Sep 27 2017 Reto Gantenbein <reto.gantenbein@linuxmonk.ch> 2.1.0-0.1
+- Update to 2.1.0.
+- Add setuptools dependency for EPEL 7 builds
+
 * Thu Aug 03 2017 Fedora Release Engineering <releng@fedoraproject.org> - 2.0.8-2.2
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_27_Binutils_Mass_Rebuild
 
