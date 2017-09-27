@@ -31,7 +31,7 @@
 
 Name:           lxc
 Version:        2.1.0
-Release:        %{?prerel:0.}1%{?prerel:.%{prerel}}%{?dist}
+Release:        %{?prerel:0.}0.1%{?prerel:.%{prerel}}%{?dist}
 Summary:        Linux Resource Containers
 Group:          Applications/System
 License:        LGPLv2+ and GPLv2
