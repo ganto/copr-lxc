@@ -388,6 +388,10 @@ fi
 
 
 %changelog
+* Wed Oct 25 2017 Reto Gantenbein <reto.gantenbein@linuxmonk.ch> 2.1.1-0.1
+- Update to 2.1.1.
+
+
 * Wed Sep 27 2017 Reto Gantenbein <reto.gantenbein@linuxmonk.ch> 2.1.0-0.1
 - Update to 2.1.0.
 - Add setuptools dependency for EPEL 7 builds
