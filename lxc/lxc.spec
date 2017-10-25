@@ -30,7 +30,7 @@
 %global shortcommit %(c=%{commit}; echo ${c:0:7})
 
 Name:           lxc
-Version:        2.1.0
+Version:        2.1.1
 Release:        %{?prerel:0.}0.1%{?prerel:.%{prerel}}%{?dist}
 Summary:        Linux Resource Containers
 Group:          Applications/System
