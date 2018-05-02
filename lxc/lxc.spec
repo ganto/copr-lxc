@@ -388,6 +388,9 @@ fi
 
 
 %changelog
+* Wed May 02 2018 Reto Gantenbein <reto.gantenbein@linuxmonk.ch> 2.1.1-0.2
+- Rebuild for Fedora 28
+
 * Wed Oct 25 2017 Reto Gantenbein <reto.gantenbein@linuxmonk.ch> 2.1.1-0.1
 - Update to 2.1.1.
 
